@@ -2,26 +2,16 @@
   "name": "mongoose-test",
   "version": "1.0.0",
   "description": "",
-  "main": "serve.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node serve.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KuoMinLi/Mongoose-test.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KuoMinLi/Mongoose-test/issues"
-  },
   "homepage": "https://github.com/KuoMinLi/Mongoose-test#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
     "mongoose": "^6.7.0"
-  },
-  "engines": {
-    "node": "v16.x"
   }
 }
