@@ -9,7 +9,7 @@ const Todo = require('./models/todo.js');
 
 const DB = process.env.DATABASE.replace('<password>', process.env.DATABASE_PASSWORD);
 mongoose.connect(DB).then(() => {
-  console.log('DB connection successful!');
+  console.log('資料庫連線成功!');
 })
 
 
